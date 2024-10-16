@@ -1,0 +1,48 @@
+# Python-related
+*.pyc
+*.pyo
+__pycache__/
+*.pyd
+
+# Django-specific
+*.log
+*.sqlite3
+db.sqlite3
+/media
+/staticfiles
+/venv
+/env
+/env.bak
+*.pot
+*.py[cod]
+*.cover
+.coverage
+*.egg-info/
+dist/
+build/
+eggs/
+*.egg
+*.manifest
+
+# Environment variables
+.env
+*.env
+
+# IDE files
+.idea/
+*.sublime-workspace
+*.sublime-project
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Other
+*.bak
+*.swp
+*~
