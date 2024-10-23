@@ -24,5 +24,6 @@ router.register(r'goals', views.TodoView, 'goal')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/', include(router.urls))
+    path('api/', include(router.urls)),
+    path('', lambda request: redirect('/api/')),
 ]
