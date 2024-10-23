@@ -22,9 +22,9 @@ MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
 ]
 
-# CORS_ORIGIN_WHITELIST = (
-#     'http://localhost:5173',  
-# )
+CORS_ORIGIN_WHITELIST = (
+    'https://render-deploy-task-manager-app-react.onrender.com/',  
+)
 
 STORAGES = {
     "default":{
